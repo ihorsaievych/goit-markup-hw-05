@@ -613,6 +613,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.gallery-link:focus .gallery-item-about,
 .gallery-link:hover .gallery-item-about {
   transform: translateY(0%);
 }
@@ -774,5 +775,6 @@ img {
 }
 
 .no-scroll {
-  overflow: auto;
+  overflow: hidden;
+  padding-right: 17px;
 }
